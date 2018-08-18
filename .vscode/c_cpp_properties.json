@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "WSL",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${localappdata}/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include",
+                "${localappdata}/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/7",
+                "${localappdata}/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/x86_64-linux-gnu"
+            ],
+            "defines": [
+                "__linux__",
+                "__x86_64__"
+            ],
+            "browse": {
+                "path": [
+                    "${localappdata}/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include",
+                    "${localappdata}/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/7",
+                    "${localappdata}/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/x86_64-linux-gnu"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
